@@ -1,4 +1,4 @@
-def soma(numA: int, numB: int) -> int:
+def sum_num(num_a: int, num_b: int) -> int:
     """
     Sum numA and numB. Returns the result
     @params:
@@ -6,8 +6,5 @@ def soma(numA: int, numB: int) -> int:
     numB: int
     @return: int
     """
-    result = numA + numB
+    result = num_a + num_b
     return result
-
-
-soma(1, 2)
